@@ -78,8 +78,14 @@ nmap -A -p21 10.6.6.23
 
 ## Evidence
 
-> _Add screenshot: nmap default scan output showing open ports_  
-> _Add screenshot: nmap -A output showing vsftpd and anonymous FTP files_
+> nmap default scan output showing open ports_
+>
+> <img width="423" height="264" alt="image" src="https://github.com/user-attachments/assets/a040c36b-62af-457d-9b4c-623dce4a6dff" />
+
+> nmap -A output showing vsftpd and anonymous FTP files_
+>
+> <img width="440" height="275" alt="image" src="https://github.com/user-attachments/assets/1cb3aee1-1a52-4574-90ce-bc5501963037" />
+
 
 ---
 
