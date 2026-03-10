@@ -1,4 +1,4 @@
-# 04 – SMB Misconfiguration & Anonymous Share Access
+<img width="461" height="288" alt="image" src="https://github.com/user-attachments/assets/2650312a-a7c0-447b-af70-781fb2decf8e" /># 04 – SMB Misconfiguration & Anonymous Share Access
 
 ## Vulnerability
 **SMB Anonymous READ/WRITE Access** — SMB shares, including one labelled "Confidential Workfiles", are accessible without authentication. User enumeration is also possible via NSE scripts.
@@ -64,8 +64,14 @@ nmap --script smb-enum-shares.nse -p445 10.6.6.23
 
 ## Evidence
 
-> _Add screenshot: smb-enum-users output showing Arbiter and MasterChief_  
+> smb-enum-users output showing Arbiter and MasterChief_
+>
+> <img width="489" height="306" alt="image" src="https://github.com/user-attachments/assets/4ca40536-3744-4f1a-9481-6a0f98341f64" />
+
 > _Add screenshot: smb-enum-shares output showing anonymous READ/WRITE access_
+>
+> <img width="461" height="288" alt="image" src="https://github.com/user-attachments/assets/8d1e6fa9-1ec7-47a0-9039-c96ce9ec68ea" />
+
 
 ---
 
