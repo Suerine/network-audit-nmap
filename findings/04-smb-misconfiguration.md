@@ -1,4 +1,4 @@
-<img width="461" height="288" alt="image" src="https://github.com/user-attachments/assets/2650312a-a7c0-447b-af70-781fb2decf8e" /># 04 – SMB Misconfiguration & Anonymous Share Access
+# 04 – SMB Misconfiguration & Anonymous Share Access
 
 ## Vulnerability
 **SMB Anonymous READ/WRITE Access** — SMB shares, including one labelled "Confidential Workfiles", are accessible without authentication. User enumeration is also possible via NSE scripts.
