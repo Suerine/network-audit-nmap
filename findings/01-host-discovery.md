@@ -23,7 +23,10 @@ The target host `10.6.6.23` responded, confirming it is live and its IP stack is
 
 ## Evidence
 
-> _Add screenshot: nmap -sn output showing 7 hosts up_
+> nmap -sn output showing 7 hosts up_
+>
+> <img width="425" height="266" alt="image" src="https://github.com/user-attachments/assets/0f664201-edfe-40ee-ab64-a99adfba3eeb" />
+
 
 ---
 
